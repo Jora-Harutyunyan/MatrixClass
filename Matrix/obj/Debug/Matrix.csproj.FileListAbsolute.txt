@@ -1,0 +1,6 @@
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\bin\Debug\Matrix.exe.config
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\bin\Debug\Matrix.exe
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\bin\Debug\Matrix.pdb
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\obj\Debug\Matrix.exe
+C:\Users\Jora\Desktop\ACA\ACA_MATRIX\Matrix\Matrix\obj\Debug\Matrix.pdb
