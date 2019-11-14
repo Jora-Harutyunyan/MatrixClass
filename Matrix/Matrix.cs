@@ -13,12 +13,16 @@ namespace Matrix
             this.Row = Row;
             this.Column = Column;
             matrix = InitialMatrix();
-            determinant = DET(Row, matrix);
+            if(Row == 2 && Column ==2)
+            {
+                determinant = DET(Row, matrix);
+            }
+            
         }
 
         public int Row { get; }
         public int Column { get; }
-        public int[,] matrix { get; }
+        public double[,] matrix { get; }
         private double determinant { get; set; }
         public double Determinand
         {
@@ -29,11 +33,11 @@ namespace Matrix
 
         }
         //Determinant
-        private double DET(int n, int[,] Mat)
+        private double DET(int n, double[,] Mat)
         {
             double d = 0;
             int k, i, j, subi, subj;
-            int[,] SUBMat = new int[n, n];
+            double[,] SUBMat = new double[n, n];
             if (n == 2)
             {
                 return ((Mat[0, 0] * Mat[1, 1]) - (Mat[1, 0] * Mat[0, 1]));
@@ -63,9 +67,9 @@ namespace Matrix
             return d;
         }
         //CreateMatrix
-        private int[,] InitialMatrix()
+        private double[,] InitialMatrix()
         {
-            int[,] Randommatrix = new int[Row, Column];
+            double[,] Randommatrix = new double[Row, Column];
             Random random = new Random();
             for (var i = 0; i < Row; i++)
             {
